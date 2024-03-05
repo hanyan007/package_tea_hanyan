@@ -13,13 +13,16 @@ with open("README.rst", "r") as f:
 
 
 setup(name='package_tea_hanyan',  # 包名
-      version='1.0.1',  # 版本号
+      version='1.0.3',  # 版本号
       description='small package just example',
       long_description=long_description,
       author='hanyan_news',
       author_email='hanyan0572@gmail.com',
-      url='git@github.com:hanyan007/package_tea_hanyan.git',
+      url='https://github.com/hanyan007/package_tea_hanyan.git',
       install_requires=[],
+      project_urls={  # Optional
+        "Source": 'https://github.com/hanyan007/package_tea_hanyan.git',
+      },
       license='BSD License',
       packages=find_packages(),
       platforms=["all"],
