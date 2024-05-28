@@ -13,13 +13,13 @@ with open("README.rst", "r") as f:
 
 
 setup(name='package_tea_hanyan',  # 包名
-      version='1.0.3',  # 版本号
-      description='small package just example',
+      version='1.0.4',  # 版本号
+      description='example for demo1',
       long_description=long_description,
       author='hanyan_news',
       author_email='hanyan0572@gmail.com',
       url='https://github.com/hanyan007/package_tea_hanyan.git',
-      install_requires=[],
+      install_requires=["restful-dnspod-log==1.0.1", "dnspod-domain-log==1.0.4"],
       project_urls={  # Optional
         "Source": 'https://github.com/hanyan007/package_tea_hanyan.git',
       },
